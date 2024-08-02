@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Make the container take the full height of the viewport */
+}
+
+.overall-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(203, 211, 222);
+  opacity: 1;
+
+  transition: grid-template-columns 0.2s;
+}
+
+.div1 {
+  background-color: rgb(51, 153, 85);
+}
+
+.div2 {
+  background-color: rgb(76, 83, 179);
+}
+
+.div3 {
+  background-color: rgb(151, 70, 70);
+}
+
+.div {
+  padding: 20px;
+  color: white;
+}
+body {
+  background-color: black;
+}
